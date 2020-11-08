@@ -9,7 +9,12 @@ Hardened MongoDB Docker image
 
 ## Specification
 
-- Modify the entrypoint script to create a DB user at startup using the values
-  of the environment variables `${MONGO_USERNAME}` and `${MONGO_PASSWORD}`. It
-  is recommended for better security to use this user rather than MongoDB
-  default user .
+For better security, the entrypoint script is modified to provide an alternative
+to Mongo's default database and user.
+
+This container
+
+- creates a database named according to the environment variable
+  `${MONGO_INITDB_DATABASE}`
+- create a DB user at startup using the values of the environment variables
+  `${MONGO_USERNAME}` and `${MONGO_PASSWORD}`
