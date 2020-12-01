@@ -1,4 +1,4 @@
-FROM mongo:4.4.1
+FROM mongo:4.4.2
 
 # Safer bash scripts with 'set -euxo pipefail'
 SHELL ["/bin/bash", "-euxo", "pipefail", "-c"]
