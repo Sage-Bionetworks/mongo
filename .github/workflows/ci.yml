@@ -1,15 +1,15 @@
 name: ci
 
 on:
-  schedule:
-    - cron: '0 10 * * *' # everyday at 10am
   push:
     branches:
       - main
-      - develop
     tags:
       - '*.*.*'
   pull_request:
+
+env:
+  docker_repository: sagebionetworks/mongo
 
 jobs:
   lint:
@@ -30,7 +30,7 @@ jobs:
     - name: Prepare
       id: prep
       run: |
-        DOCKER_IMAGE=nlpsandbox/mongo
+        DOCKER_IMAGE=${{ env.docker_repository }}
         VERSION=noop
         PUSH=false
         if [ "${{ github.event_name }}" = "schedule" ]; then
@@ -91,4 +91,4 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
-        repository: nlpsandbox/mongo
+        repository: ${{ env.docker_repository }}
