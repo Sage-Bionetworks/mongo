@@ -1,4 +1,4 @@
-# NLP Sandbox MongoDB image
+# MongoDB image
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/nlpsandbox/mongo.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/nlpsandbox/mongo)
 [![GitHub Release](https://img.shields.io/github/release/nlpsandbox/mongo.svg?include_prereleases&color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/nlpsandbox/mongo/releases)
