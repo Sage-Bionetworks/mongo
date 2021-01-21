@@ -26,7 +26,7 @@ as shown in this official example:
 docker run -d --network some-network --name some-mongo \
     -e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
     -e MONGO_INITDB_ROOT_PASSWORD=secret \
-    mongo
+    sagebionetworks/mongo
 ```
 
 **Issue:** This root account has elevated priviledges that allow it to perform any actions
@@ -55,8 +55,6 @@ docker run -d --network some-network --name some-mongo \
     -e MONGO_PASSWORD=secret \
     sagebionetworks/mongo
 ```
-
-Note the use of the image [sagebionetworks/mongo].
 
 ## Contributing
 
