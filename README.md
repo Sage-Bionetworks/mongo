@@ -56,6 +56,13 @@ docker run -d --network some-network --name some-mongo \
     sagebionetworks/mongo
 ```
 
+## MongoDB UI
+
+[Robo 3T] is a powerful open-source UI client for troubleshooting during the
+development of a web application that relies on a Mongo instance. Make sure to
+download Robo 3T and not Studio 3T, the paid version, unless that's what you
+want.
+
 ## Contributing
 
 Anyone can contribute with [issues] and [PRs]. If you're submitting a pull
@@ -69,3 +76,4 @@ commits down if possible.
 [sagebionetworks/mongo]: https://hub.docker.com/repository/docker/sagebionetworks/mongo
 [issues]: https://github.com/Sage-Bionetworks/mongo/issues
 [PRs]:https://github.com/Sage-Bionetworks/mongo/pulls
+[Robo 3T]: https://robomongo.org/download
