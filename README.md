@@ -58,8 +58,16 @@ docker run -d --network some-network --name some-mongo \
 
 Note the use of the image [sagebionetworks/mongo].
 
+## Contributing
+
+Anyone can contribute with [issues] and [PRs]. If you're submitting a pull
+request, always create a new branch to work your changes, and try squashing
+commits down if possible.
+
 <!-- Links -->
 
 [mongo image]: https://hub.docker.com/_/mongo
 [dbAdmin]: https://docs.mongodb.com/manual/reference/built-in-roles/#dbAdmin
 [sagebionetworks/mongo]: https://hub.docker.com/repository/docker/sagebionetworks/mongo
+[issues]: https://github.com/Sage-Bionetworks/mongo/issues
+[PRs]:https://github.com/Sage-Bionetworks/mongo/pulls
