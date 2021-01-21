@@ -1,6 +1,5 @@
 FROM mongo:4.4.3
 
-# Safer bash scripts with 'set -euxo pipefail'
 SHELL ["/bin/bash", "-euxo", "pipefail", "-c"]
 
 # Alter default docker-entrypoint.sh to add non-admin db user
