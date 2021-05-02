@@ -1,7 +1,7 @@
 # MongoDB image
 
 [![GitHub Release](https://img.shields.io/github/release/Sage-Bionetworks/mongo.svg?include_prereleases&color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/mongo/releases)
-[![GitHub CI](https://img.shields.io/github/workflow/status/Sage-Bionetworks/mongo/ci.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/mongo/actions)
+[![GitHub CI](https://img.shields.io/github/workflow/status/Sage-Bionetworks/mongo/CI.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/mongo/actions)
 [![GitHub License](https://img.shields.io/github/license/Sage-Bionetworks/mongo.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/mongo/blob/main/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/sagebionetworks/mongo.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/sagebionetworks/mongo)
 
