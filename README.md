@@ -13,7 +13,7 @@ below.
 
 ## Specification
 
-- Mongo version: 4.4.8
+- Mongo version: 5.0.6
 - Docker image: [sagebionetworks/mongo]
 
 
