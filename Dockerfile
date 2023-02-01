@@ -1,4 +1,4 @@
-FROM mongo:5.0.6
+FROM mongo:6.0.4
 
 # Safer bash script execution
 SHELL ["/bin/bash", "-euxo", "pipefail", "-c"]
